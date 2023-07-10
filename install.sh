@@ -1,3 +1,8 @@
+git clone https://github.com/fabioaurelioqrosa/Docker.git
+cd Docker
+sudo ./install.sh
+cd ..
+
 cat <<EOF | sudo tee /etc/yum.repos.d/kubernetes.repo
 [kubernetes]
 name=Kubernetes
